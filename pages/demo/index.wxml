@@ -1,0 +1,31 @@
+<view class="container" style="padding-top: {{ navHeight }}px">
+  <nav-bar pageName="{{ pageName }}" showNav="{{ showNav }}"></nav-bar>
+
+  <view class="content">
+    <view class="section">
+      <view class="section-title">TailwindCSS 示例</view>
+      <view class="flex flex-row items-center justify-center p-4">
+        <text class="text-lg font-bold text-blue-500">flex + padding + text</text>
+      </view>
+      <view class="flex flex-row justify-between p-4">
+        <view class="w-16 h-16 bg-red-400 rounded"></view>
+        <view class="w-16 h-16 bg-green-400 rounded"></view>
+        <view class="w-16 h-16 bg-blue-400 rounded"></view>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="section-title">图标字体示例</view>
+      <view class="icon-row">
+        <view class="icon-item">
+          <view class="iconfont icon-yule"></view>
+          <text>娱乐</text>
+        </view>
+        <view class="icon-item">
+          <view class="iconfont icon-zhaoxiangji"></view>
+          <text>相机</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="navbar custom-class" style="height:{{ navHeight }}px; padding-top:{{ navTop }}px;">
+  <view class="nav-content" style="height:{{ navHeight - navTop }}px;">
+    <view class="nav-left" catch:tap="handBack" wx:if="{{ showNav === -1 }}">
+      <text class="nav-icon">←</text>
+    </view>
+    <view class="nav-left" catch:tap="handList" wx:if="{{ showNav === 1 }}">
+      <text class="nav-icon">☰</text>
+    </view>
+    <view class="nav-title">{{ pageName }}</view>
+  </view>
+</view>

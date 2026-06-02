@@ -1,0 +1,24 @@
+{
+  "name": "miniprogram-framework",
+  "version": "1.0.0",
+  "description": "微信小程序框架模板 - 基于 TailwindCSS",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./styles/tailwind.wxss -o ./miniprogram_npm/tailwind/tailwind.wxss --minify",
+    "dev:tailwind": "npx tailwindcss -i ./styles/tailwind.wxss -o ./miniprogram_npm/tailwind/tailwind.wxss --watch"
+  },
+  "keywords": [
+    "miniprogram",
+    "tailwindcss",
+    "framework"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "tailwindcss-miniprogram-preset": "^2.1.2"
+  },
+  "dependencies": {
+    "miniprogram-framework": "file:"
+  }
+}

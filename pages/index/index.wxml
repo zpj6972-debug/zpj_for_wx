@@ -1,0 +1,18 @@
+<view class="container" style="padding-top: {{ navHeight }}px">
+  <nav-bar pageName="{{ pageName }}" showNav="{{ showNav }}" bind:list="handleList"></nav-bar>
+
+  <view class="content flex flex-column flex-y-center">
+    <view class="title">Mini Program Framework</view>
+    <view class="subtitle">基于 TailwindCSS 的小程序框架模板</view>
+
+    <view class="card">
+      <view class="card-title">框架特性</view>
+      <view class="card-item">✓ TailwindCSS 原子化样式</view>
+      <view class="card-item">✓ 自定义导航栏组件</view>
+      <view class="card-item">✓ 多环境配置管理</view>
+      <view class="card-item">✓ 图标字体支持</view>
+    </view>
+
+    <view class="btn-primary" bind:tap="handleList">查看演示页</view>
+  </view>
+</view>
